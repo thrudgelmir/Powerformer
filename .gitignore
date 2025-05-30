@@ -4,4 +4,4 @@ __pycache__/
 powerformer_plain/tests/saves/
 powerformer_HE/pre_weights/
 powerformer_HE/eval_res/
-powerformer_HE/save_data/
+powerformer_HE/poly_eval/
