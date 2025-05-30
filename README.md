@@ -1,7 +1,16 @@
 # Installation Instructions
 
-To install the required dependencies, run the following command:
+**Note:** This project uses Git LFS (Large File Storage) to manage large files.
+To properly download all files, please install Git LFS before cloning or pulling:
 
+```bash
+# Install Git LFS (only once per system)
+git lfs install
+# Then clone the repository as usual
+git clone <repo_url>
+```
+
+To install the required dependencies, run the following command:
 ```bash
 pip install -r requirements.txt
 ```
