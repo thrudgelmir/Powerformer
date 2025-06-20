@@ -29,6 +29,7 @@ To see plaintext experiments, run
 - `tests/Batch_Method.ipynb`: Study of Batch Method (secsion 6.1.4)
 
 2. Ciphertext Evaluation
+   
 To see the homomorphic encryption experiment, run `./powerformer_HE/test.ipynb`.
 
 Since a private GPU-based HE library is used, the results displayed are implemented in numpy. To obtain actual homomorphic encryption results, override the basic homomorphic operations in `./powerformer_HE/base_fncs.py` to match the functions of the HE library you intend to use.
